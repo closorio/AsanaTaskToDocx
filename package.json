@@ -1,0 +1,11 @@
+{
+  "name": "attd-notes",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "docxtemplater": "^3.37.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.1",
+    "pizzip": "^3.1.4"
+  }
+}
