@@ -2,7 +2,7 @@
 
 Manual de Usuario
 
-- Creado por: Cristian L. Osorio <[closorio](https://github.com/closorio)>
+- Creado por: <[closorio](https://github.com/closorio)>
 
 # Introducción
 
@@ -101,9 +101,7 @@ Es necesario proporcionar los parámetros de entrada: La aplicación utiliza dos
 - Seleccione los permisos que desea asignar al token. Los permisos disponibles incluyen acceso completo a la cuenta de Asana, acceso a proyectos y tareas específicas, y la capacidad de crear y modificar proyectos.
 - Haga clic en "Crear token de acceso" para generar el token.
 - Copie el token generado y guárdelo en un lugar seguro. Tendrá que usar este token para autenticar cualquier solicitud que haga a la API de Asana.
-- Copie el token generado en el código entre las comillas dobles (” ”) según la imagen a continuación:
-
-![Untitled](Asana%20Task%20To%20Docx%2004c0987cbe2c44789cd61bf4a7baa054/Untitled.png)
+- Copie el token generado en el código entre las comillas dobles (” ”).
 
 <aside>
 💡 Nota: Es importante tener en cuenta que los tokens de acceso tienen acceso a la información y acciones de la cuenta de Asana, así que asegúrese de mantener el token seguro y de revocar cualquier token que ya no necesite.
@@ -116,9 +114,8 @@ Es necesario proporcionar los parámetros de entrada: La aplicación utiliza dos
 - Abre el proyecto cuyo ID deseas obtener.
 - En la barra de direcciones de tu navegador, busca el número que aparece después de "**[https://app.asana.com/0/](https://app.asana.com/0/)**" en la URL. Ese número es el ID del proyecto.
 - También puedes encontrar el ID del proyecto en la URL del enlace "Exportar" del proyecto. El ID del proyecto estará en la parte final de la URL después de "projectID=".
-- Copie el ID del proyecto en el código justo después del Token de acceso de Asana, entre las comillas dobles (” ”), como se muestra en la siguiente imagen
+- Copie el ID del proyecto en el código justo después del Token de acceso de Asana, entre las comillas dobles (” ”).
 
-![Untitled](Asana%20Task%20To%20Docx%2004c0987cbe2c44789cd61bf4a7baa054/Untitled%201.png)
 
 <aside>
 💡 Nota: Es necesario tener en cuenta que el ID del proyecto es único y no se puede cambiar una vez que se ha creado el proyecto en Asana .
